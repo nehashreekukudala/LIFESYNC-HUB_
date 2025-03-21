@@ -1,4 +1,4 @@
-/* General Styles */
+
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
@@ -15,7 +15,7 @@ body {
   padding: 20px;
 }
 
-/* Header Styles */
+
 header {
   background: linear-gradient(135deg, #6a11cb, #2575fc);
   color: #fff;
@@ -23,6 +23,7 @@ header {
   text-align: center;
   border-bottom-left-radius: 50% 20%;
   border-bottom-right-radius: 50% 20%;
+   background-image: url('stu.jpg');
 }
 
 header h1 {
@@ -65,7 +66,7 @@ nav ul li a i {
   margin-right: 8px;
 }
 
-/* Section Styles */
+
 .section {
   padding: 60px 0;
   text-align: center;
@@ -74,7 +75,7 @@ nav ul li a i {
   border-radius: 15px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
- background-image: url('stu.jpg');
+
 }
 
 .section:hover {
@@ -98,7 +99,7 @@ nav ul li a i {
   margin-bottom: 20px;
 }
 
-/* Button Styles */
+
 .btn {
   background: linear-gradient(135deg, #6a11cb, #2575fc);
   color: #fff;
@@ -115,7 +116,7 @@ nav ul li a i {
   transform: scale(1.05);
 }
 
-/* Footer Styles */
+
 footer {
   background: linear-gradient(135deg, #6a11cb, #2575fc);
   color: #fff;
