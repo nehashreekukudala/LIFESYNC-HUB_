@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goals Organizer</title>
+    <link rel="stylesheet" href="stylesg.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎯 Goals Organizer</h1>
+            <p>Set, track, and achieve your goals with ease.</p>
+        </header>
+
+        <form id="goal-form">
+            <input type="text" id="goal-input" placeholder="Enter your goal" required>
+            <input type="date" id="goal-date" required>
+            <textarea id="goal-description" placeholder="Add a description (optional)" rows="3"></textarea>
+            <button type="submit">Add Goal</button>
+        </form>
+
+        <h2>Your Goals:</h2>
+        <div id="goal-list"></div>
+    </div>
+
+    <script src="scriptg.js"></script>
+</body>
+</html>

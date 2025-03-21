@@ -1,0 +1,139 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('travel-bg.jpg'); /* Add your background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #333;
+background-image:url('timage.jpg');
+
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: 450px;
+    text-align: center;
+    backdrop-filter: blur(5px); /* Adds a blur effect to the background */
+
+
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #34495e;
+}
+
+/* Form Styles */
+#travel-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#travel-form input, #travel-form textarea, #travel-form button {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+#travel-form input, #travel-form textarea {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+}
+
+#travel-form input:focus, #travel-form textarea:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+}
+
+#travel-form textarea {
+    resize: vertical; /* Allow vertical resizing */
+}
+
+#travel-form button {
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#travel-form button:hover {
+    background-color: #2980b9;
+}
+
+/* Trip List Styles */
+#trip-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.trip-card {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: left;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.trip-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.trip-card h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #2c3e50;
+}
+
+.trip-card p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.trip-card .dates {
+    font-weight: bold;
+    color: #3498db;
+}
+
+.trip-card button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.trip-card button:hover {
+    background-color: #c0392b;
+}
